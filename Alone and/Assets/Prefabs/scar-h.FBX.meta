@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 319ca3fcbc47eb849a8d45952864daf4
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Bone005
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone001
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: scar-h_stock
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone004
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: scar-h(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone005
+      parentName: scar-h(Clone)
+      position: {x: -0.044754438, y: -0.12879579, z: 9.9759645e-18}
+      rotation: {x: 0.00000008145811, y: -6.018717e-10, z: -0.0073885247, w: 0.9999727}
+      scale: {x: 0.44868702, y: 0.44868702, z: 0.44868705}
+    - name: scar-h_stock
+      parentName: Bone005
+      position: {x: 0.59429514, y: 0.060143203, z: -0.00019221213}
+      rotation: {x: 0.0052299546, y: -0.70708746, z: 0.0052299546, w: 0.70708746}
+      scale: {x: 3.336286, y: 3.3362868, z: 3.3362868}
+    - name: scar-h
+      parentName: Bone005
+      position: {x: -0.3568766, y: 0.044738255, z: -0.065050244}
+      rotation: {x: 1.7037827e-14, y: 7.731051e-17, z: 0.0073885256, w: 0.9999727}
+      scale: {x: 3.336286, y: 3.336286, z: 3.3362858}
+    - name: scar-h_TA31RCO
+      parentName: Bone005
+      position: {x: -0.23444171, y: 0.22543083, z: -0.0016437677}
+      rotation: {x: 0.0052244426, y: -0.7070871, z: 0.005224437, w: 0.7070879}
+      scale: {x: 0.5099377, y: 0.5099378, z: 0.50993776}
+    - name: scar-h_mag
+      parentName: Bone005
+      position: {x: -0.28877956, y: -0.1184089, z: -0.029848848}
+      rotation: {x: 1.9129006e-14, y: 2.6611613e-17, z: 0.0073885256, w: 0.9999727}
+      scale: {x: 2.228725, y: 2.228725, z: 2.228725}
+    - name: scar-h_bolt
+      parentName: Bone005
+      position: {x: -0.49137107, y: 0.09610456, z: 0.020664062}
+      rotation: {x: 1.9129006e-14, y: 2.6611613e-17, z: 0.0073885256, w: 0.9999727}
+      scale: {x: 2.228725, y: 2.228725, z: 2.228725}
+    - name: scar-h_trigger
+      parentName: Bone005
+      position: {x: -0.122218825, y: -0.09407907, z: -0.0023356858}
+      rotation: {x: 1.9129006e-14, y: 2.6611613e-17, z: 0.0073885256, w: 0.9999727}
+      scale: {x: 2.228725, y: 2.228725, z: 2.228725}
+    - name: Bone001
+      parentName: Bone005
+      position: {x: -0.8183162, y: 0.039095215, z: -0.000000012111664}
+      rotation: {x: -0.0000016069379, y: 0.0000013648934, z: -0.70433223, w: 0.70987046}
+      scale: {x: 0.44960475, y: 0.44960475, z: 0.44960484}
+    - name: Bone002
+      parentName: Bone005
+      position: {x: -0.8189057, y: 0.11474195, z: -0.00000003676764}
+      rotation: {x: 0.0000020192886, y: 0.0000021607461, z: 0.007388763, w: 0.9999727}
+      scale: {x: 0.44960475, y: 0.44960475, z: 0.44960484}
+    - name: scar-h_front sight
+      parentName: Bone005
+      position: {x: -0.9187721, y: 0.12959832, z: 0.00000046682456}
+      rotation: {x: 0.5016927, y: -0.49830154, z: 0.5016927, w: 0.49830154}
+      scale: {x: 2.228725, y: 2.2287247, z: 2.2287247}
+    - name: Bone003
+      parentName: Bone005
+      position: {x: 0.011482953, y: 0.06941686, z: 2.8876456e-15}
+      rotation: {x: -0.0000047445333, y: 0.0000046962373, z: -0.70348024, w: 0.7107148}
+      scale: {x: 0.5291244, y: 0.5291244, z: 0.5291244}
+    - name: Bone004
+      parentName: Bone005
+      position: {x: 0.01049896, y: 0.16558704, z: 1.377407e-12}
+      rotation: {x: 0.000006576158, y: 0.0000064860674, z: 0.0073885256, w: 0.9999727}
+      scale: {x: 0.5291243, y: 0.5291243, z: 0.5291244}
+    - name: scar-h_rear sight
+      parentName: Bone005
+      position: {x: 0.02947581, y: 0.09907565, z: -0.036409628}
+      rotation: {x: 0.000009284027, y: 0.000000016210839, z: 0.70987064, w: 0.7043321}
+      scale: {x: 2.2287242, y: 2.2287242, z: 2.228725}
+    - name: scar-h_rear sight base
+      parentName: Bone005
+      position: {x: -0.0020040928, y: 0.14694452, z: -0.036408514}
+      rotation: {x: 2.890735e-14, y: -4.6039686e-13, z: 0.0073885256, w: 0.9999727}
+      scale: {x: 2.2287247, y: 2.2287247, z: 2.228725}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
